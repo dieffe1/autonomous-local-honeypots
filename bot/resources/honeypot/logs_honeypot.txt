@@ -1,0 +1,100 @@
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 5900 (2020-03-06 17:36:57 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 443 (2020-03-06 17:36:57 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 3306 (2020-03-06 17:36:57 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 3389 (2020-03-06 17:36:57 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 23 (2020-03-06 17:36:57 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 1900 (2020-03-06 17:36:57 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 445 (2020-03-06 17:36:57 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 1433 (2020-03-06 17:36:57 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 21 (2020-03-06 17:36:57 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 27017 (2020-03-06 17:36:57 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 80 (2020-03-06 17:36:57 +0100)
+
+
+  INTRUSION ATTEMPT DETECTED! from 10.0.10.1:50952 (2020-03-06 17:39:31 +0100)
+ -----------------------------
+
+
+  INTRUSION ATTEMPT DETECTED! from 10.0.10.1:50960 (2020-03-06 17:40:05 +0100)
+ -----------------------------
+
+
+  INTRUSION ATTEMPT DETECTED! from 10.0.10.1:52336 (2020-03-06 17:40:35 +0100)
+ -----------------------------
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 21 (2020-03-06 17:42:04 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 23 (2020-03-06 17:42:04 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 3389 (2020-03-06 17:42:04 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 1900 (2020-03-06 17:42:04 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 80 (2020-03-06 17:42:04 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 3306 (2020-03-06 17:42:04 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 27017 (2020-03-06 17:42:04 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 443 (2020-03-06 17:42:04 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 445 (2020-03-06 17:42:04 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 5900 (2020-03-06 17:42:04 +0100)
+
+#################### PenTBox Honeypot log
+
+  HONEYPOT ACTIVATED ON PORT 1433 (2020-03-06 17:42:04 +0100)
+

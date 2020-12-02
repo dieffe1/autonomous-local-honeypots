@@ -1,11 +1,8 @@
 from web3 import Web3, HTTPProvider
 from web3.middleware import geth_poa_middleware
 from sys import exit
+from bin import infura_api, account
 
-# testnet api key
-infura_api = 'https://rinkeby.infura.io/v3/57f91a62c8244fc88d8fe7a13e02ae5f'
-# ethereum wallet
-account = '0xF10a93e2441c1dA7F73c667fd9C9BE7f6A7B2580'
 # contract application binary interface - a sort of contract schema
 abi = '[{"inputs":[],"name":"data","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"}]'
 

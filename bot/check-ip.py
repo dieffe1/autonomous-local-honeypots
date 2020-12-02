@@ -2,11 +2,12 @@ from subprocess import Popen, PIPE
 from requests import get
 from re import match
 from sys import exit
+from bin.keys import fqdn, repo, hs
 
 def get_current_ip():
 	# DNS
 	print('Retrieving IP from DNS resolver...')
-	p = Popen(['nslookup localhoneypot.ddns.net | tail -2'], stdout=PIPE, shell=True)
+	p = Popen(['nslookup %s | tail -2' % fqdn], stdout=PIPE, shell=True)
 	out = p.communicate()[0].decode().split()
 	if 'Address:' in out:
 		#print(out[1])
@@ -14,7 +15,7 @@ def get_current_ip():
 
 	# GIT
 	print('Failed.\n\nRetrieving IP from GIT...')
-	r = get(url = 'https://localhoneypot.github.io')
+	r = get(url = 'https://%s.github.io' % repo)
 	if r.status_code == 200:
 		#print(r.content.decode())
 		return r.content.decode()
@@ -29,8 +30,8 @@ def get_current_ip():
 
 	# TOR
 	print('Failed.\n\nRetrieving IP from TOR Hidden Service...')
-	p = Popen(['curl', '--socks5-hostname', 'localhost:9050', '-s',
-		'http://c7hlckkrkihirsp6weseznijtg25icoozosau5uj3acblwo75xo7o6qd.onion:1234/index.html'], stdout=PIPE); p.wait()
+	p = Popen(['curl', '--socks5-hostname', 'localhost:9050', '-s', hs], 
+		stdout=PIPE); p.wait()
 	out = p.communicate()[0].decode()
 	if is_valid_ip(out):
 		#print(out)
